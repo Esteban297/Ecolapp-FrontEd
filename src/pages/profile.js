@@ -8,6 +8,7 @@ function Profile() {
 
   return (
     <div className="Profile">
+    <Link to="/Home">Inicio</Link>
       <div className="Profile-header">
         <img
           src="https://img.freepik.com/vector-premium/perfil-hombre-dibujos-animados_18591-58482.jpg?w=2000"

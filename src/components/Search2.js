@@ -2,6 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import './css/style.css';
 import logo from './img/img.png';
+import reco from './img/img4.png';
 
 
 
@@ -15,13 +16,9 @@ const Home = () => {
                 <Link to="/help" className="help-link">Help</Link>
                 <Link to="/profile" className="profile-link">Profile</Link>
             </div>
-            <div className="welcome-message">
-                <h1>Bienvenidos a Ecolapp</h1>
-                <h4>Tienes un total de: 40 ecopuntos</h4>
-                <h5>¿Desea solicitar una recolección?</h5>
-                <Link to="/search">
-                    <button type="submit" className="btn btn-primary" style={{ backgroundColor: '#006400', color: '#fff' }}>Buscar recolector</button>
-                </Link>
+            <div className="message">
+                <p>Gracias por tu ayuda, Miguel, uno de nuestros recolectores está en camino y llegará pronto a tu casa.</p>
+                <img src={reco} alt="Logo de la empresa" style={{ width: '20%', height: '50%' }} />
             </div>
         </div>
     );

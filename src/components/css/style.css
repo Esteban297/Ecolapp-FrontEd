@@ -20,3 +20,16 @@
 .home-link:hover, .help-link:hover, .profile-link:hover {
     text-decoration: underline;
 }
+
+.welcome-message {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.message {
+    font-family: Montserrat;
+    font-size: 2em;
+    text-align: center;
+}

@@ -7,6 +7,11 @@
     background-size: cover;
 }
 
+.is-invalid {
+    border-color: red;
+}
+
+
 .login-form-box {
     background-color: rgba(255, 255, 255, 0.8);
     padding: 20px;
