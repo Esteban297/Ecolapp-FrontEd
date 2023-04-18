@@ -1,0 +1,22 @@
+.home-container {
+    height: 100vh;
+    background-image: url(https://i.pinimg.com/222x/f4/ef/2d/f4ef2d27221f0e14e26a4ead20e82928.jpg);
+    background-size: cover;
+}
+
+.header {
+    font-family: 'Montserrat', sans-serif;
+    background-color: green;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 15px;
+}
+
+.home-link, .help-link, .profile-link {
+    color: white;
+    text-decoration: none;
+}
+
+.home-link:hover, .help-link:hover, .profile-link:hover {
+    text-decoration: underline;
+}
