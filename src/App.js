@@ -4,8 +4,8 @@ import Home from "./components/Home";
 import Search from "./components/Search";
 import Search2 from "./components/Search2";
 import Help from "./components/Help";
-import Profile from "./pages/profile";
-import Points from "./pages/points";
+import Profile from "./components/profile";
+import Points from "./components/points";
 
 function App() {
     return (

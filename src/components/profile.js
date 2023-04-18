@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import "./profile.css";
+import "./css/profile.css";
 
 function Profile() {
 
