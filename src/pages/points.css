@@ -1,0 +1,99 @@
+.Points {
+  font-family: Arial, sans-serif;
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+  background-color: #b0f0d8;
+  padding: 2rem;
+  box-sizing: border-box;
+  }
+  
+  .Points h1 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  color: #333;
+  }
+  
+  .Points ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  }
+  
+  .Points li {
+  border: 1px solid #ddd;
+  padding: 1rem;
+  text-align: center;
+  background-color: #fff;
+  height: 400px;
+  width: calc(33% - 1rem);
+  margin-bottom: 1rem;
+  box-sizing: border-box;
+  }
+  
+  .Points li:nth-child(4) img {
+  width: 130px;
+  height: auto;
+  }
+  
+  .Points li img {
+    max-width: 100%;
+    height: 200px;
+    object-fit: cover;
+    margin-bottom: 1rem;
+  }
+
+ 
+  
+  .Points h2 {
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+  color: #333;
+  }
+  
+  .Points p {
+  margin: 0;
+  margin-bottom: 0.5rem;
+  color: #333;
+  }
+  
+  .Points button {
+  background-color: #47a747;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 0.5rem 1rem;
+  margin-top: 1rem;
+  cursor: pointer;
+  font-size: 1rem;
+  width: 100%;
+  }
+
+  .Points .buttons button {
+    background-color: #47a747;
+    margin: 1rem;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    font-size: 1rem;
+    width: 35%;
+  }
+  
+  .Points .buttons button.cancel {
+    background-color: #e74c3c;
+  }
+  
+  .Points button:hover {
+  background-color: #399639;
+  }
+  
+  @media (max-width: 600px) {
+  .Points li {
+  width: calc(50% - 1rem);
+  }
+  }
